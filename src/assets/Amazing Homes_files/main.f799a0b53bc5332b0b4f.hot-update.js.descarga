@@ -1,0 +1,158 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/how-it-work/How-it-work.js":
+/*!***************************************************!*\
+  !*** ./src/components/how-it-work/How-it-work.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _utils_sample_box_Sample_box__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/sample-box/Sample-box */ "./src/components/utils/sample-box/Sample-box.js");
+/* harmony import */ var _How_it_work_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./How-it-work.scss */ "./src/components/how-it-work/How-it-work.scss");
+/* harmony import */ var _How_it_work_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_How_it_work_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_icons_search_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/icons/search.svg */ "./src/assets/icons/search.svg");
+/* harmony import */ var _assets_icons_search_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_search_svg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_icons_handshake_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/icons/handshake.svg */ "./src/assets/icons/handshake.svg");
+/* harmony import */ var _assets_icons_handshake_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_handshake_svg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _assets_icons_alert_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/icons/alert.svg */ "./src/assets/icons/alert.svg");
+/* harmony import */ var _assets_icons_alert_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_alert_svg__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "C:\\Users\\Bienvenido\\Desktop\\DrCancio-Asoc-client-master\\DrCancio-Asoc-client-master\\src\\components\\how-it-work\\How-it-work.js";
+
+
+
+
+
+
+
+const HowItWork = () => {
+  const boxDetails = [{
+    id: 1,
+    bkcolor: "#ffffff",
+    iconColor: "#f6f6f6",
+    color: "#666666",
+    title: "Derecho Penal",
+    bColor: "#c4c4c481",
+    icon: _assets_icons_search_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+    desc: "Defensa legal sólida en casos de delitos. Protegemos tus derechos en cada etapa."
+  }, {
+    id: 2,
+    bkcolor: "#297EFF",
+    iconColor: "#5A9CFF",
+    color: "#ffffff",
+    title: "Derecho Sucesorio",
+    bColor: "#ffffff",
+    icon: _assets_icons_handshake_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    desc: "Planificación sucesoria, testamentos, partición de bienes y resolución de disputas hereditarias."
+  }, {
+    id: 3,
+    bkcolor: "#ffffff",
+    iconColor: "#f6f6f6",
+    color: "#666666",
+    title: "Daños y Perjuicios",
+    bColor: "#c4c4c481",
+    icon: _assets_icons_alert_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    desc: "Buscamos la compensación por daños sufridos por accidentes o incumplimientos"
+  }, {
+    id: 4,
+    bkcolor: "#297EFF",
+    iconColor: "#5A9CFF",
+    color: "#ffffff",
+    title: "Derecho Comercial",
+    bColor: "#c4c4c481",
+    icon: _assets_icons_alert_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    desc: "Asesoramiento legal para empresas, contratos y protección de propiedad intelectual.."
+  }, {
+    id: 5,
+    bkcolor: "#297EFF",
+    iconColor: "#5A9CFF",
+    color: "#ffffff",
+    title: "Derecho Laboral",
+    bColor: "#c4c4c481",
+    icon: _assets_icons_alert_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    desc: "Asesoramiento y representación en casos laborales. Protegemos tus derechos como trabajador."
+  }, {
+    id: 6,
+    bkcolor: "#ffffff",
+    iconColor: "#f6f6f6",
+    color: "#666666",
+    title: "Derecho de Familia",
+    bColor: "#c4c4c481",
+    icon: _assets_icons_alert_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    desc: "Asesoramiento y representación en divorcios, custodia, adopciones y otros asuntos familiares."
+  }, {
+    id: 6,
+    bkcolor: "#297EFF",
+    iconColor: "#5A9CFF",
+    color: "#ffffff",
+    title: "Derecho Civil",
+    bColor: "#c4c4c481",
+    icon: _assets_icons_alert_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    desc: "Resolvemos problemas legales en contratos, propiedad, sucesiones y más"
+  }, {
+    id: 6,
+    bkcolor: "#ffffff",
+    iconColor: "#f6f6f6",
+    color: "#666666",
+    title: "Jubilaciones",
+    bColor: "#c4c4c481",
+    icon: _assets_icons_alert_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    desc: "Ayuda en la obtención de beneficios previsionales y defensa de tus derechos"
+  }];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "how-container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93,
+      columnNumber: 5
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94,
+      columnNumber: 7
+    }
+  }, "Especializaciones"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95,
+      columnNumber: 7
+    }
+  }, "Expertos en m\xFAltiples \xE1reas del derecho para abordar tus necesidades legales espec\xEDficas"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "boxes-container",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99,
+      columnNumber: 7
+    }
+  }, boxDetails.map(detail => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utils_sample_box_Sample_box__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    key: detail.id,
+    bkColor: detail.bkcolor,
+    iconColor: detail.iconColor,
+    color: detail.color,
+    title: detail.title,
+    bColor: detail.bColor,
+    icon: detail.icon,
+    desc: detail.desc,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101,
+      columnNumber: 11
+    }
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (HowItWork);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.f799a0b53bc5332b0b4f.hot-update.js.map

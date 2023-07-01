@@ -1,0 +1,22 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/components/utils/sample-box/Sample-box.scss":
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-5-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--6-oneOf-5-3!./node_modules/sass-loader/dist/cjs.js??ref--6-oneOf-5-4!./src/components/utils/sample-box/Sample-box.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".box {\n  width: 280px;\n  height: 254px;\n  border: 1px solid #297EFF;\n  border-radius: 10px;\n  padding: 19px 21px 19px 22px;\n  margin-bottom: 10px; }\n  .box .p-box {\n    font-size: 14px;\n    width: auto;\n    line-height: 25px; }\n  .box .box-title {\n    display: flex;\n    justify-content: left;\n    margin-bottom: 28px; }\n    .box .box-title .icon-container {\n      width: 44px;\n      height: 44px;\n      background-color: #f6f6f6;\n      border-radius: 50%;\n      padding: 7px 0 0 12px; }\n    .box .box-title h3 {\n      margin: 0 0 0 21px;\n      font-size: 18px;\n      line-height: 44px;\n      text-align: center;\n      display: inline-block; }\n  .box p {\n    border-top: 1.5px solid #c4c4c481;\n    padding-top: 20px;\n    font-size: 16px;\n    line-height: 26px;\n    color: #666666;\n    text-align: left; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.f8728cc208a78c38c046.hot-update.js.map
