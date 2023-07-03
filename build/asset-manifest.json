@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d4df7318.chunk.css",
+    "main.js": "/static/js/main.804e317a.chunk.js",
+    "main.js.map": "/static/js/main.804e317a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7e7a30de.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7e7a30de.js.map",
+    "static/css/2.21e94be5.chunk.css": "/static/css/2.21e94be5.chunk.css",
+    "static/js/2.802c0256.chunk.js": "/static/js/2.802c0256.chunk.js",
+    "static/js/2.802c0256.chunk.js.map": "/static/js/2.802c0256.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.89ef715b24be6b408d2e2946b03c43a9.js": "/precache-manifest.89ef715b24be6b408d2e2946b03c43a9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.21e94be5.chunk.css.map": "/static/css/2.21e94be5.chunk.css.map",
+    "static/css/main.d4df7318.chunk.css.map": "/static/css/main.d4df7318.chunk.css.map",
+    "static/js/2.802c0256.chunk.js.LICENSE.txt": "/static/js/2.802c0256.chunk.js.LICENSE.txt",
+    "static/media/acoso_ex.jpg": "/static/media/acoso_ex.e0a3f047.jpg",
+    "static/media/acuña.jpg": "/static/media/acuña.2d125348.jpg",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/cariglino.jpg": "/static/media/cariglino.01b3c1a1.jpg",
+    "static/media/testimonials.scss": "/static/media/dottedd.ea372d2f.png",
+    "static/media/handshake.svg": "/static/media/handshake.eaf03bdc.svg",
+    "static/media/main-card.scss": "/static/media/jorge.d6bbadf1.jpg",
+    "static/media/juncos.jpg": "/static/media/juncos.c7d3bbc0.jpg",
+    "static/media/leiva.webp": "/static/media/leiva.699a28ab.webp",
+    "static/media/letras.jpg": "/static/media/letras.7d5ccb35.jpg",
+    "static/media/Header.scss": "/static/media/logo.201c61de.png",
+    "static/media/map.jpg": "/static/media/map.4f235cca.jpg",
+    "static/media/mariacarmona.jpg": "/static/media/mariacarmona.4574dffc.jpg",
+    "static/media/pitbulls.jpg": "/static/media/pitbulls.fbfcef6b.jpg",
+    "static/media/quote.svg": "/static/media/quote.d74200e6.svg",
+    "static/media/quote1.svg": "/static/media/quote1.f9f4ad52.svg",
+    "static/media/rox.jpg": "/static/media/rox.2f4613e4.jpg",
+    "static/media/user.svg": "/static/media/user.a1bd11f0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e7a30de.js",
+    "static/css/2.21e94be5.chunk.css",
+    "static/js/2.802c0256.chunk.js",
+    "static/css/main.d4df7318.chunk.css",
+    "static/js/main.804e317a.chunk.js"
+  ]
+}
