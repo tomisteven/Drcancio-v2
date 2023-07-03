@@ -54,7 +54,7 @@
     }
 
     .top-bar{
-        width: 571px;
+        width: 721px;
         display: flex;
         justify-content: space-between;
         .title {
@@ -75,7 +75,15 @@
                     margin-right: 0;
                 }
             }
+            a:hover{
+                cursor: pointer;
+                border-bottom:  2px solid rgb(0, 82, 0) ;
+                opacity: 0.8;
+                transition: all 0.3s ease-in-out;
+            }
         }
+
+
     }
 }
 

@@ -1,17 +1,17 @@
 import React from "react";
 import './About-Us.scss'
-import house from '../../assets/img_martillo.jpg'
+import house from '../../assets/letras.jpg'
 
 const AboutUs = () => {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <div className="dotted"></div>
       <div className="dotted dTwo"></div>
       <div className="dotted dThree"></div>
       <h2 >Nosotros</h2>
       <p className="about-phrase"></p>
       <div className="about-content">
-        <div className="blue-shadow"></div>
+
         <img className="about-image" src={house} alt="main-house" />
         <div className="about-p">
           <h3>Soluciones Integrales</h3>

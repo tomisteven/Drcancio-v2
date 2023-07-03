@@ -1,20 +1,23 @@
 import React from 'react';
 import './Footer.scss'
+import logo from '../../assets/logo.png'
+import map from '../../assets/map.jpg'
+
 
 const Footer = () => {
-    return ( 
+    return (
         <footer>
             <div className="main-container">
 
                 <div className="footer-navbar">
-                    <a href="!#" className="footer-name">Amazing Homes</a>
+                    <img src={logo} alt={logo}></img>
+                    <img_logo_footer></img_logo_footer>
                     <div className="socials">
-                        <a className="follow-us"href="!#">Follow Us</a>
+                        <a className="follow-us"href="!#">Redes Sociales</a>
                         <div className="media">
                             <a href="!#"><ion-icon name="logo-facebook"></ion-icon></a>
                             <a href="!#"><ion-icon name="logo-twitter"></ion-icon></a>
                             <a href="!#"><ion-icon name="logo-instagram"></ion-icon></a>
-                            <a href="!#"><ion-icon name="logo-linkedin"></ion-icon></a>
                         </div>
                     </div>
                 </div>
@@ -22,47 +25,44 @@ const Footer = () => {
                 <div className="options">
                     <div className="menu">
                         <div className="popular">
-                            <h3>Polular Search</h3>
+                            <h3>Especilizaciones</h3>
                             <ul>
-                                <li> <a href="!#"> Aparment For Rent </a> </li>
-                                <li> <a href="!#"> Aparment Low To Hide </a> </li>
-                                <li> <a href="!#"> Offices For Buy </a> </li>
-                                <li> <a href="!#"> Offices For Rent </a> </li>
+                                <li> <a href="!#"> Derecho Civil </a> </li>
+                                <li> <a href="!#"> Derecho Penal </a> </li>
+                                <li> <a href="!#"> Daños y Perjuicios </a> </li>
+                                <li> <a href="!#"> Jubilaciones </a> </li>
+                                <li> <a href="!#"> Derecho Comercial </a> </li>
+                                <li> <a href="!#"> Derecho Laboral </a> </li>
                             </ul>
                         </div>
+                        <div className='column-f'>
                         <div className="homepress">
-                        <h3>Homepress Markets</h3>
+                        <h3>Contacto</h3>
                             <ul>
-                                <li> <a href="!#"> Los Angeles Offices </a> </li>
-                                <li> <a href="!#"> Las Vegas Apartment </a> </li>
-                                <li> <a href="!#"> Sacramento Townhome </a> </li>
-                                <li> <a href="!#"> San Francisco Offices </a> </li>
+                                <li> <a href="!#"> +54 11 5754-1353  </a> </li>
+                                <li> <a href="!#"> Estudiojuridico@hotmail.com  </a> </li>
+
                             </ul>
                         </div>
                         <div className="quick">
-                        <h3>Quick Links</h3>
+                        <h3>Ubicacion</h3>
                             <ul>
-                                <li> <a href="!#"> Pricing Plan </a> </li>
-                                <li> <a href="!#"> FQA </a> </li>
-                                <li> <a href="!#"> About Us </a> </li>
-                                <li> <a href="!#"> Contact Us </a> </li>
+                                <li> <a href="!#"> Menendez y Pelayo, 1504, Don Torcuato </a> </li>
+
                             </ul>
                         </div>
+                        </div>
                     </div>
-                    
-                    <form className='form' action="!#">
-                        <input type="text" name="name" placeholder="Your Name"/>
-                        <input type="text" name="email" placeholder="Your email"/>
-                        <input className="button"type="submit" value="Subscribe"/>
-                    </form>
-                    
+
+                    <img src={map} alt=""/>
+
                 </div>
 
-                <p className="copyright" >@Amazing Homes 2020 Developed by Jose Rangel (Desing by Kawsar Ahmed) </p>
-                
+                <p className="copyright" >Diseñado y Realizado por ® Digital Code - 2023 </p>
+
             </div>
         </footer>
      );
 }
- 
+
 export default Footer;

@@ -1,24 +1,26 @@
 import React from 'react';
 import './testimonial-2.scss'
-import profile from '../../../assets/Profile02.jpg'
+import profile from '../../../assets/jorge.jpg'
 import quote from '../../../assets/quote.svg'
 
 const TestimonialB  = () => {
-    return ( 
+    return (
         <div className="testimonial-container">
             <div className="text-container">
                 <img src={quote} alt="quote"/>
                 <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy.
+                En nuestro estudio jurídico, nos enorgullece ofrecer una representación legal excepcional, buscando la justicia y protegiendo los derechos de nuestros clientes con pasión y experiencia.
                 </p>
-                <div className="blue-shadow"></div>
+
                 <img className="profile-pic" src={profile} alt="Profile"/>
             </div>
-            <p className="name" >Kawsar Ahmed</p>
-            <p className="position">Ui Ux Designer</p>
+            <p className="name" >Dr. Jorge Cancio</p>
+            <p className="position">Universidad de Buenos Aires</p>
+            <p className="position">Abogado Penalista</p>
+            <p className="position">Especilista en Criminologia</p>
+            <p className="position">Especilista en Derecho Animal</p>
         </div>
      );
 }
- 
+
 export default TestimonialB;

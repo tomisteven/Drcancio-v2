@@ -59,7 +59,7 @@ const Properties = () => {
   ];
 
   return (
-    <div className="properties-container">
+    <div id="casos" className="properties-container">
       <h2> Casos Mediaticos </h2>
       <p> </p>
       <div className="cards-container">
@@ -75,18 +75,22 @@ const Properties = () => {
         ))}
       </div>
       <div className="button-container">
-        <Button  size="small" color="facebook">
+        <Button onClick={
+          () => window.location.href='https://www.facebook.com/jorgecancioabogado'
+        } size="small" color="facebook">
           <Icon size="big" name="facebook" /> Facebook
         </Button>
-        <Button size="small" color="twitter">
+        <Button onClick={
+          () => window.location.href='https://www.twitter.com/drjorgecancio'
+        } size="small" color="twitter">
           <Icon size="big" name="twitter" /> Twitter
         </Button>
-        <Button size="small" color="google plus">
-          <Icon size="big" name="google plus" /> Google Plus
+        <Button onClick={
+          () => window.location.href='https://www.instagram.com/estudiojuridicojorgecancio'
+        } size="small" color="orange">
+          <Icon size="big" name="instagram" /> Instagram
         </Button>
-        <Button size="small" color="vk">
-          <Icon size="big" name="vk" /> VK
-        </Button>
+
       </div>
     </div>
   );

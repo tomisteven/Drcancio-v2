@@ -14,8 +14,13 @@ footer{
     width: 100% ;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 125px;
-    padding-top: 120px;
+    margin-bottom: 35px;
+    padding-top: 10px;
+
+    img{
+        width: 260px;
+        height: 260px;
+    }
 }
 
 .footer-name{
@@ -35,7 +40,7 @@ footer{
         font-size: 25px;
         font-weight: bold;
         padding-bottom: 5px;
-        flex: 0 0 120px;
+        flex: 0 0 220px;
         color:$gray1;
         text-decoration: none;
     }
@@ -54,10 +59,20 @@ footer{
 .options{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 61px;
-
+    margin-bottom: -30px;
+    img{
+        width: 420px;
+        height: 420px;
+        border-radius: 20px;
+        position: relative;
+        top: -70px;
+    }
+    .column-f{
+        display: flex;
+        flex-direction: column;
+    }
     .menu{
-        flex: 0 0 660px;
+        flex: 0 0 600px;
         display: flex;
         justify-content: space-between;
         h3{
@@ -81,13 +96,13 @@ footer{
             }
         }
         .popular{
-            width: 190px;
+            width: 250px;
         }
         .hompress{
             width: 250px;
         }
         .quick{
-            width: 150px;
+            width: 250px;
         }
     }
 
@@ -121,6 +136,7 @@ footer{
 
 .copyright{
     text-align: center;
-    margin-bottom: 71px;
+    margin-bottom: 11px;
+    font-size: 12px;
 }
 

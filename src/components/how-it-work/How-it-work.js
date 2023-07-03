@@ -3,7 +3,6 @@ import SampleBox from "../utils/sample-box/Sample-box";
 import "./How-it-work.scss";
 
 import hands from "../../assets/icons/handshake.svg";
-import alert from "../../assets/icons/alert.svg";
 import familia from "../../assets/familia.png";
 import penal from "../../assets/justicia.png";
 import daños from "../../assets/daños.png";
@@ -12,18 +11,17 @@ import laboral from "../../assets/laboral.png";
 import civil from "../../assets/civil.png";
 import jubilaciones from "../../assets/jubilacion.png";
 
-
 const HowItWork = () => {
   const boxDetails = [
     {
       id: 1,
-      bkcolor: "#ffffff",
+      bkcolor: "#262626",
       iconColor: "#f6f6f6",
-
+      color: "#ffffff",
       title: "Derecho Penal",
       bColor: "#c4c4c481",
-      icon: penal   ,
-      desc: "Defensa legal sólida en casos de delitos. Protegemos tus derechos en cada etapa."
+      icon: penal,
+      desc: "Defensa legal sólida en casos de delitos. Protegemos tus derechos en cada etapa.",
     },
     {
       id: 2,
@@ -33,17 +31,18 @@ const HowItWork = () => {
       title: "Derecho Sucesorio",
       bColor: "#ffffff",
       icon: hands,
-      desc: "Planificación sucesoria, testamentos, partición de bienes y resolución de disputas hereditarias."
+      desc: "Planificación sucesoria, testamentos, partición de bienes y resolución de disputas hereditarias.",
     },
     {
       id: 3,
-      bkcolor: "#ffffff",
+      bkcolor: "#262626",
       iconColor: "#f6f6f6",
+      color: "#ffffff",
 
       title: "Daños y Perjuicios",
       bColor: "#c4c4c481",
       icon: daños,
-      desc:"Buscamos la compensación por daños sufridos por accidentes o incumplimientos"
+      desc: "Buscamos la compensación por daños sufridos por accidentes o incumplimientos",
     },
     {
       id: 4,
@@ -53,7 +52,7 @@ const HowItWork = () => {
       title: "Derecho Comercial",
       bColor: "#c4c4c481",
       icon: comercial,
-      desc: "Asesoramiento legal para empresas, contratos y protección de propiedad intelectual.."
+      desc: "Asesoramiento legal para empresas, contratos y protección de propiedad intelectual..",
     },
     {
       id: 5,
@@ -63,41 +62,42 @@ const HowItWork = () => {
       title: "Derecho Laboral",
       bColor: "#c4c4c481",
       icon: laboral,
-      desc: "Asesoramiento y representación en casos laborales. Protegemos tus derechos como trabajador."
+      desc: "Asesoramiento y representación en casos laborales. Protegemos tus derechos como trabajador.",
     },
     {
       id: 6,
-      bkcolor: "#ffffff",
+      bkcolor: "#262626",
       iconColor: "#f6f6f6",
+      color: "#ffffff",
       title: "Derecho de Familia",
       bColor: "#c4c4c481",
-      icon:familia,
-      desc: "Asesoramiento y representación en divorcios, custodia, adopciones y otros asuntos familiares."
+      icon: familia,
+      desc: "Asesoramiento y representación en divorcios, custodia, adopciones y otros asuntos familiares.",
     },
     {
-        id: 6,
-        bkcolor: "#297EFF",
-        iconColor: "#5A9CFF",
-        color: "#ffffff",
-        title: "Derecho Civil",
-        bColor: "#c4c4c481",
-        icon: civil,
-        desc: "Resolvemos problemas legales en contratos, propiedad, sucesiones y más"
-      },
-      {
-        id: 6,
-        bkcolor: "#ffffff",
-        iconColor: "#f6f6f6",
-
-        title: "Jubilaciones",
-        bColor: "#c4c4c481",
-        icon: jubilaciones,
-        desc:"Ayuda en la obtención de beneficios previsionales y defensa de tus derechos"
-      },
+      id: 6,
+      bkcolor: "#297EFF",
+      iconColor: "#5A9CFF",
+      color: "#ffffff",
+      title: "Derecho Civil",
+      bColor: "#c4c4c481",
+      icon: civil,
+      desc: "Resolvemos problemas legales en contratos, propiedad, sucesiones y más",
+    },
+    {
+      id: 6,
+      bkcolor: "#262626",
+      iconColor: "#f6f6f6",
+      color: "#ffffff",
+      title: "Jubilaciones",
+      bColor: "#c4c4c481",
+      icon: jubilaciones,
+      desc: "Ayuda en la obtención de beneficios previsionales y defensa de tus derechos",
+    },
   ];
 
   return (
-    <div className="how-container">
+    <div id="esp" className="how-container">
       <h2>Especializaciones</h2>
       <p>
         Expertos en múltiples áreas del derecho para abordar tus necesidades
