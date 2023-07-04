@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Icon } from "semantic-ui-react";
 import "./Header.scss";
+import logo from "../../assets/logo.png";
 
 const Header = () => {
   return (
@@ -10,6 +11,7 @@ const Header = () => {
       <div className="header-container">
         <div className="header-navbar">
           <div className="top-bar">
+            <img className="img-header-logo" src={logo} alt=""/>
             <a className="title" href="!#">
               Estudio Juridico Integral
             </a>

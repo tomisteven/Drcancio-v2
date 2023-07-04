@@ -75,22 +75,35 @@ const Properties = () => {
         ))}
       </div>
       <div className="button-container">
-        <Button onClick={
-          () => window.location.href='https://www.facebook.com/jorgecancioabogado'
-        } size="small" color="facebook">
-          <Icon size="big" name="facebook" /> Facebook
+        <Button
+          onClick={() =>
+            (window.location.href =
+              "https://www.facebook.com/jorgecancioabogado")
+          }
+          size="small"
+          color="facebook"
+        >
+          <Icon className="icon" size="big" name="facebook" />
         </Button>
-        <Button onClick={
-          () => window.location.href='https://www.twitter.com/drjorgecancio'
-        } size="small" color="twitter">
-          <Icon size="big" name="twitter" /> Twitter
+        <Button
+          onClick={() =>
+            (window.location.href = "https://www.twitter.com/drjorgecancio")
+          }
+          size="small"
+          color="twitter"
+        >
+          <Icon className="icon" size="big" name="twitter" />
         </Button>
-        <Button onClick={
-          () => window.location.href='https://www.instagram.com/estudiojuridicojorgecancio'
-        } size="small" color="orange">
-          <Icon size="big" name="instagram" /> Instagram
+        <Button
+          onClick={() =>
+            (window.location.href =
+              "https://www.instagram.com/estudiojuridicojorgecancio")
+          }
+          size="small"
+          color="orange"
+        >
+          <Icon className="icon" size="big" name="instagram" />
         </Button>
-
       </div>
     </div>
   );

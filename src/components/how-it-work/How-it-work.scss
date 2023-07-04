@@ -26,3 +26,36 @@
     flex-wrap: wrap;
   }
 }
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  .how-container {
+    margin-top: 105px;
+    width: 100%;
+    padding: 0 20px;
+
+    h2 {
+      margin: 0 0 15px;
+      width: 100%;
+      text-align: center;
+    }
+
+    p {
+      margin: 0 auto;
+      width: 100%;
+      height: 56px;
+      font-size: 16px;
+      line-height: 28px;
+      margin-bottom: 56px;
+    }
+
+    .boxes-container {
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}
