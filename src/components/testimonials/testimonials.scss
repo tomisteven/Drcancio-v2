@@ -64,14 +64,12 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 520px) {
-  .abogados {
-    width: 100%;
-    margin-bottom: 0px;
     .testimonials-main {
-      width: 80%;
+      width: 100%;
       margin: 0px;
       height: auto;
-      margin-bottom: 0px;
+      margin-bottom: 120px;
+      margin-top: 40px;
       h2 {
         font-size: 16px;
         line-height: 24px;
@@ -80,12 +78,17 @@
       .description {
         font-size: 16px;
         line-height: 24px;
+        margin-bottom: 40px;
       }
       .testimonials-container {
         height: auto;
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 0px;
         padding-top: 0px;
         .dotted {
@@ -163,4 +166,4 @@
       }
     }
   }
-}
+

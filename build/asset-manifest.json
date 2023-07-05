@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d4df7318.chunk.css",
-    "main.js": "/static/js/main.804e317a.chunk.js",
-    "main.js.map": "/static/js/main.804e317a.chunk.js.map",
+    "main.css": "/static/css/main.efac6881.chunk.css",
+    "main.js": "/static/js/main.1fdc10f8.chunk.js",
+    "main.js.map": "/static/js/main.1fdc10f8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7e7a30de.js",
     "runtime-main.js.map": "/static/js/runtime-main.7e7a30de.js.map",
     "static/css/2.21e94be5.chunk.css": "/static/css/2.21e94be5.chunk.css",
-    "static/js/2.802c0256.chunk.js": "/static/js/2.802c0256.chunk.js",
-    "static/js/2.802c0256.chunk.js.map": "/static/js/2.802c0256.chunk.js.map",
+    "static/js/2.c09eedb8.chunk.js": "/static/js/2.c09eedb8.chunk.js",
+    "static/js/2.c09eedb8.chunk.js.map": "/static/js/2.c09eedb8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.89ef715b24be6b408d2e2946b03c43a9.js": "/precache-manifest.89ef715b24be6b408d2e2946b03c43a9.js",
+    "precache-manifest.a5177d0096bc8c754f340061ab5e148a.js": "/precache-manifest.a5177d0096bc8c754f340061ab5e148a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.21e94be5.chunk.css.map": "/static/css/2.21e94be5.chunk.css.map",
-    "static/css/main.d4df7318.chunk.css.map": "/static/css/main.d4df7318.chunk.css.map",
-    "static/js/2.802c0256.chunk.js.LICENSE.txt": "/static/js/2.802c0256.chunk.js.LICENSE.txt",
+    "static/css/main.efac6881.chunk.css.map": "/static/css/main.efac6881.chunk.css.map",
+    "static/js/2.c09eedb8.chunk.js.LICENSE.txt": "/static/js/2.c09eedb8.chunk.js.LICENSE.txt",
     "static/media/acoso_ex.jpg": "/static/media/acoso_ex.e0a3f047.jpg",
     "static/media/acuña.jpg": "/static/media/acuña.2d125348.jpg",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
@@ -24,7 +24,8 @@
     "static/media/juncos.jpg": "/static/media/juncos.c7d3bbc0.jpg",
     "static/media/leiva.webp": "/static/media/leiva.699a28ab.webp",
     "static/media/letras.jpg": "/static/media/letras.7d5ccb35.jpg",
-    "static/media/Header.scss": "/static/media/logo.201c61de.png",
+    "static/media/logo.png": "/static/media/logo.201c61de.png",
+    "static/media/Header.scss": "/static/media/logo.d8ef6303.webp",
     "static/media/map.jpg": "/static/media/map.4f235cca.jpg",
     "static/media/mariacarmona.jpg": "/static/media/mariacarmona.4574dffc.jpg",
     "static/media/pitbulls.jpg": "/static/media/pitbulls.fbfcef6b.jpg",
@@ -36,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.7e7a30de.js",
     "static/css/2.21e94be5.chunk.css",
-    "static/js/2.802c0256.chunk.js",
-    "static/css/main.d4df7318.chunk.css",
-    "static/js/main.804e317a.chunk.js"
+    "static/js/2.c09eedb8.chunk.js",
+    "static/css/main.efac6881.chunk.css",
+    "static/js/main.1fdc10f8.chunk.js"
   ]
 }

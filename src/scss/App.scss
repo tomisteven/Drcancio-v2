@@ -22,16 +22,9 @@ body{
 
 .site-container{
     max-width: 1440px;
-
     margin: 0 auto;
     background-color: white;
-    overflow-x: hidden;
-    overflow-y: scroll;
     border-radius: 50px;
-    position: relative;
-    &::-webkit-scrollbar {
-        display: none;
-    }
 }
 
 .main-container{
