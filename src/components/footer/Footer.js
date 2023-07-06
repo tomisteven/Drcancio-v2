@@ -1,5 +1,6 @@
 import React from "react";
-import "./Footer.scss";
+//import "./Footer.scss";
+import "./footer.css";
 import logo from "../../assets/logo.png";
 import map from "../../assets/map.jpg";
 

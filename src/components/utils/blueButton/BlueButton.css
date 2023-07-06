@@ -1,4 +1,4 @@
-@import '../../../scss/variables';
+
 button{
     margin-top: 22px;
     width: 200px;
@@ -10,7 +10,9 @@ button{
     font-family: 'Muli',sans-serif;
     font-weight: bold;
     font-size: 20px;
-    &:hover{
-        cursor: pointer;
-    }
+
+}
+
+button:hover{
+    cursor: pointer;
 }

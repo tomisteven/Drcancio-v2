@@ -1,10 +1,10 @@
 import React from 'react'
-import './BlueButton.scss'
+import './BlueButton.css'
 
 const BlueButton = ({text}) => {
-    return ( 
+    return (
         <button className="button"> {text} </button>
      );
 }
- 
+
 export default BlueButton;

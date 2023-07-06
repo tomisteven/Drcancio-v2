@@ -1,5 +1,6 @@
 import React from 'react'
-import './main-card.scss'
+//port './main-card.scss'
+import "./main-card.css";
 
 const MainCard = () => {
     return (

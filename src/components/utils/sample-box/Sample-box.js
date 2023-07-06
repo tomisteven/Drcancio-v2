@@ -1,5 +1,5 @@
 import React from "react";
-import './Sample-box.scss'
+import './Sample-box.css'
 
 const SampleBox = ({bkColor,iconColor,color,title,bColor,icon, desc}) => {
   return (

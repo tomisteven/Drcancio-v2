@@ -1,5 +1,5 @@
 import React from 'react';
-import './testimonial-2.scss'
+import './testimonial-2.css'
 import profile from '../../../assets/jorge.jpg'
 import quote from '../../../assets/quote.svg'
 
@@ -18,7 +18,6 @@ const TestimonialB  = () => {
             <p className="position">Universidad de Buenos Aires</p>
             <p className="position">Abogado Penalista</p>
             <p className="position">Especilista en Criminologia</p>
-            <p className="position">Especilista en Derecho Animal</p>
         </div>
      );
 }

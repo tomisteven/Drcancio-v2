@@ -1,6 +1,7 @@
 import React from "react";
-import './About-Us.scss'
-import house from '../../assets/letras.jpg'
+//import './About-Us.scss'
+import "./about.css"
+import house from '../../assets/img_martillo.jpg'
 
 const AboutUs = () => {
   return (

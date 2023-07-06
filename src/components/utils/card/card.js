@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.scss";
+import "./card.css";
 import user from "../../../assets/icons/user.svg";
 
 const Card = ({ pic, data, link, desc }) => {

@@ -1,33 +1,31 @@
-@import './variables';
-:root{
+:root {
     scroll-behavior: smooth;
   }
 
-html{
+  html {
     box-sizing: border-box;
-    *,
-    *::after,
-    *::before{
-        box-sizing: inherit;
-    }
+  }
 
-}
+  html,
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
 
-body{
+  body {
     background-color: black;
     font-family: 'Muli', sans-serif;
+  }
 
-
-}
-
-.site-container{
+  .site-container {
     max-width: 1440px;
     margin: 0 auto;
     background-color: white;
     border-radius: 50px;
-}
+  }
 
-.main-container{
+  .main-container {
     max-width: 1136px;
     margin: 0 auto;
-}
+  }

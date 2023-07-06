@@ -1,5 +1,5 @@
 import React from "react";
-import "./testimonial-1.scss";
+import "./testimonial-1.css";
 import quote1 from "../../../assets/quote1.svg";
 
 const TestimonialA = ({ photo, name, esp, text }) => {

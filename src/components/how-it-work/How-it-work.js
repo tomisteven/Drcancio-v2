@@ -1,6 +1,7 @@
 import React from "react";
 import SampleBox from "../utils/sample-box/Sample-box";
-import "./How-it-work.scss";
+//import "./How-it-work.scss";
+import "./how.css"
 
 import hands from "../../assets/icons/handshake.svg";
 import familia from "../../assets/familia.png";
